@@ -14,7 +14,7 @@ setup(
     description=" ".join(memcache_admin.__doc__.splitlines()).strip(),
     long_description=open("README.rst", "rt").read(),
     install_requires=[
-        "Django>=1.6",
+        "Django>=1.5",
     ],
     packages=find_packages(exclude=['*.tests', '*.tests.*']),
     include_package_data=True,
